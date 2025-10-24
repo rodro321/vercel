@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
+    "postinstall": "npm rebuild && npm run build",
     "build": "next build --no-lint",
     "start": "next start",
     "lint": "eslint"
