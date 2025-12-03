@@ -106,9 +106,3 @@ export type UsuarioDetalle = {
 };
 
 // En filtroType.ts sigue UsuarioResumen
-
-/**export interface ConteosFiltros {
-  ciudades: Record<string, number>;       
-  especialidades: Record<string, number>; 
-  disponibilidad: Record<string, number>; 
-}*/
